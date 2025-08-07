@@ -39,7 +39,7 @@ function Shop() {
   return (
     <>
     <div className="container-fluid my-4">
-      <h2 className="text-center mb-4">Collection </h2>
+      <h3 className="text-center mb-4 fw-bold">Best Collection </h3>
 
       {loading && (
         <div className="text-center my-5">

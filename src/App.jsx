@@ -7,13 +7,17 @@ import Shop from './Pages/Shop';
 import Product from './Pages/Product';
 import Placeorder from './Pages/Placeorder';
 import Cart from './Pages/Cart';
+import Feedback from './Components/Feedback';
+import Header from './Components/Header';
 
 
 
 function App() {
 
   return (
+
     <>
+    <Header/>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
@@ -21,6 +25,7 @@ function App() {
       <Route path='/product/:id' element={<Product/>}/>
       <Route path='/order' element={<Placeorder/>}/>
       <Route path='/cart' element={<Cart/>}/>
+      <Route path='/cont' element={<Feedback/>}/>
     </Routes>
 
       

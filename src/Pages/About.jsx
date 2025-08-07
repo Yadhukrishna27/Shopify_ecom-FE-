@@ -5,15 +5,19 @@ import { Col, Row } from 'react-bootstrap'
 function About() {
   return (
     <>
-    <div className="container my-4">
-      <h3 className='text-center fw-bolder mb-5'>About Us</h3>
+    <div className="container mt-5">
+      <h3 className=' fw-bold my-2'>About Us:</h3>
       <Row>
-        <Col><img style={{maxwidth:"49vh", maxHeight:"49vh"}} src="https://www.appnova.com/wp-content/uploads/2024/10/An-Essential-Guide-to-Fashion-eCommerce-Top-Trends-Winning-Strategies-and-More1.jpg" alt="" /></Col>
+        
         <Col className='mt-3'>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat nulla necessitatibus reiciendis quia porro pariatur a id, ullam incidunt, iusto eius harum temporibus? Error ab, corrupti quaerat aliquam ipsa minima?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ad tempora praesentium eos aut officia amet repellat nesciunt aliquid veniam. Alias placeat sequi aliquam porro magnam quia esse modi ducimus?
+          <p>Shopify is one of the world's leading ecommerce brands and is internationally recognized for celebrating the essence of classic Worldwide cool looking style.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores natus aliquam mollitia odio ad esse hic ut illum veritatis tempora ratione nihil atque, doloremque iusto earum odit minus labore totam.
           </p>
+
+          <h3 className=' fw-bold mb-3 mt-4'>Our Mission</h3>
+          <p>At Enhance Clothing, our mission is to empower individuals through fashion by offering high-quality, stylish, and versatile clothing that celebrates uniqueness. We aim to inspire confidence and self-expression while prioritizing inclusivity, sustainability, and customer satisfaction.</p>
         </Col>
+        
       </Row>
     </div>
     </>

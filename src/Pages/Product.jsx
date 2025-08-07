@@ -11,7 +11,7 @@ function Product() {
  const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-    // const [quantity, setQuantity] = useState(1);
+  // const [quantity, setQuantity] = useState(1);
 
   const {id} =useParams()
 
@@ -95,14 +95,7 @@ function Product() {
               </div>
               <p className="lead">{product.description}</p>
               <div className="d-flex mt-4 ">
-                <input
-                  className="form-control text-center me-3"
-                  id="inputQuantity"
-                  type="number"
-                  defaultValue="1"
-                  
-                  style={{ maxWidth: '3rem' }}
-                />
+                
                 <Link to={'/cart'} onClick={addcart} className="btn btn-outline-dark flex-shrink-0" type="button">
                   
                   Add to cart
